@@ -46,7 +46,7 @@
 | Operação | C++ | JavaScript | Python |
 |---|---|---|---|
 | Minúsculo (char) | `tolower(c)` | — | — |
-| Minúsculo (string) | `transform(s.begin(), s.end(), s.begin(), ::tolower)` | `str.toLowerCase()` | `str.lower()` |
+| Minúsculo (string) | `transform(s.begin(), s.end(), s.begin(), [](unsigned char c)` | `str.toLowerCase()` | `str.lower()` |
 | Remover espaços | — | `str.trim()` | `str.strip()` |
 | Tamanho | `str.size()` ou `str.length()` | `str.length` | `len(str)` |
 | Verificar se é letra | `isalpha(c)` | — | `str.isalpha()` |
