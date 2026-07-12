@@ -93,10 +93,10 @@
 
 | Operação | C++ | JavaScript | Python |
 |---|---|---|---|
-| Declarar | `map<string, int> m;` | `const m = {};` | `m = {}` |
+| Declarar | `map<string, int> m ;` | `const m = {};` | `m = {}` |
 | Adicionar/atualizar | `m["chave"] = valor;` | `m["chave"] = valor` | `m["chave"] = valor` |
 | Acessar | `m["chave"]` | `m["chave"]` | `m["chave"]` |
-| Verificar se existe | `m.count("chave") > 0` | `"chave" in m` | `"chave" in m` |
+| Verificar se existe | `m.count("chave") > 0 (usar boolalpha para mostrar)` | `"chave" in m` | `"chave" in m` |
 | Iterar | `for(auto& par : m)` → `par.first`, `par.second` | `for(const [k,v] of Object.entries(m))` | `for k, v in m.items()` |
 
 ---
