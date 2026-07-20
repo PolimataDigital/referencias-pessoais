@@ -1,9 +1,5 @@
 # Referência — Python Back-End (Sockets → Flask → SQL → Segurança)
 
-> Feito a partir do que praticamos juntos. Não é pra reler como teoria — é pra colar/adaptar quando a sintaxe fugir da memória.
-
----
-
 ## 1. Sockets puros (o "por baixo" do HTTP)
 
 Servidor mínimo, sem framework, aceitando múltiplas conexões e respondendo por rota:
