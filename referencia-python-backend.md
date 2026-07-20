@@ -258,7 +258,3 @@ curl.exe http://localhost:8080/perfil -H "Authorization: Bearer SEU_TOKEN_AQUI"
 - `sqlite3.ProgrammingError: Incorrect number of bindings` — geralmente falta vírgula numa tupla de 1 elemento: `(nome,)`
 - `AttributeError: 'NoneType' object has no attribute...` — tentou usar `.algumacoisa()` num valor que veio `None` (ex: usuário ou coluna que não existe)
 - `TypeError: View function did not return a response` — uma rota Flask terminou sem nenhum `return`
-
----
-
-*Próximo capítulo: a mesma lógica, sintaxe Node/Express — arquivo de referência separado quando chegar lá.*
