@@ -1,4 +1,6 @@
 # Referência — Python Back-End (Sockets → Flask → SQL → Segurança)
+O guia do Node, para comparar lado a lado:  https://github.com/PolimataDigital/referencias-pessoais/blob/main/referencia-node-backend.md
+
 
 ## 1. Sockets puros (o "por baixo" do HTTP)
 
